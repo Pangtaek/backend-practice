@@ -87,11 +87,4 @@ gradle-app.setting
 # Java heap dump
 *.hprof
 
-# 모든 파일 및 디렉토리를 무시
-*
-
-# .gitignore 파일 자체는 무시하지 않음
-!.gitignore
-
-# .java 파일은 무시하지 않음
-!*.java
+# End of https://www.toptal.com/developers/gitignore/api/gradle,macos,java
