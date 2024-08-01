@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/gradle,java,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=gradle,java,macos
+# Created by https://www.toptal.com/developers/gitignore/api/gradle,macos,java
+# Edit at https://www.toptal.com/developers/gitignore?templates=gradle,macos,java
 
 ### Java ###
 # Compiled class file
@@ -87,4 +87,11 @@ gradle-app.setting
 # Java heap dump
 *.hprof
 
-# End of https://www.toptal.com/developers/gitignore/api/gradle,java,macos
+# 모든 파일 및 디렉토리를 무시
+*
+
+# .gitignore 파일 자체는 무시하지 않음
+!.gitignore
+
+# .java 파일은 무시하지 않음
+!*.java
