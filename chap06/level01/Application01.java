@@ -35,6 +35,8 @@ public class Application01 {
 
         } while(ch!='n' && ch!='N');
 
+        br.close();
+
         for (int i = 0; i < cnt; i++) {
             System.out.println(students[i].getInformation());
         }
